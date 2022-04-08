@@ -15,6 +15,7 @@ public class Main {
     public static void main(String[] args) {
         int fchoose, mchoose, Wscore, Iscore, Cscore;
         Scanner input = new Scanner(System.in);
+        Scanner inputS = new Scanner(System.in);
         
         System.out.println("REGISTRATION FORM PT.JUAN");
         System.out.println("1. Android Development");
@@ -27,7 +28,7 @@ public class Main {
             System.out.print("Input Student Number : ");
             String NIM = input.next();
             System.out.print("Input Name : ");
-            String name = input.next();
+            String name = inputS.nextLine();
             System.out.print("Input Writing Exam Score : ");
             Wscore = input.nextInt();
             System.out.print("Input Coding Test Score : ");
@@ -68,7 +69,7 @@ public class Main {
             System.out.print("Input Student Number : ");
             String NIM = input.next();
             System.out.print("Input Name : ");
-            String name = input.next();
+            String name = inputS.nextLine();
             System.out.print("Input Writing Exam Score : ");
             Wscore = input.nextInt();
             System.out.print("Input Coding Test Score : ");
